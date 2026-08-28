@@ -29,6 +29,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 | ------- |
 | [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
 | [1929-concatenation-of-array](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
@@ -67,6 +68,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
 ## String
 |  |
 | ------- |
@@ -79,4 +81,20 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/1929-concatenation-of-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
