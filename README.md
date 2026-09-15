@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Coding Solutions & LeetHub
+# 🧠 DSA Vault
 A single home for every problem I've solved, auto-synced from multiple platforms.
 
 </div>
