@@ -1,11 +1,6 @@
 <div align="center">
 
-# 🧠 Coding Solutions
-
-![Total Solved](https://img.shields.io/badge/Total_Solved-1-blue?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
-![Last Synced](https://img.shields.io/badge/Last_Synced-9--15--2026-green?style=for-the-badge)
-
+# 🧠 Coding Solutions & LeetHub
 A single home for every problem I've solved, auto-synced from multiple platforms.
 
 </div>
@@ -16,16 +11,14 @@ A single home for every problem I've solved, auto-synced from multiple platforms
 
 This repo is kept in sync by two tools, each handling a different set of platforms:
 
-| Tool | Syncs From | Link |
+| Tool | Syncs From |*
 |:---|:---|:---:|
 | 🟠 **LeetHub** | LeetCode |
 | 🚀 **PushMyCode** | HackerRank, GeeksforGeeks (GFG), CodeChef |
 
-> Solve it, forget it — it ends up here automatically.
-
 ---
 
-## 📊 Stats
+## 📊 Stats (via PushMyCode)
 
 | Difficulty | Solved |
 |:---:|:---:|
@@ -37,7 +30,7 @@ This repo is kept in sync by two tools, each handling a different set of platfor
 ## 📂 Repository Structure
 
 ```
-📦 coding-solutions/
+📦 coding-challenge/
 ├── leetcode/
 │   ├── easy/
 │   ├── medium/
@@ -49,7 +42,7 @@ This repo is kept in sync by two tools, each handling a different set of platfor
 
 ---
 
-## ✅ Solved
+## ✅ LeetCode Solved (via LeetHub)
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
