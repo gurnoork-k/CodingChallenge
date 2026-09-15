@@ -18,7 +18,7 @@ This repo is kept in sync by two tools, each handling a different set of platfor
 
 ---
 
-## 📊 Stats (via PushMyCode)
+## 📊 HackerRank, GFG, CodeChef Solved (via PushMyCode)
 
 | Difficulty | Solved |
 |:---:|:---:|
@@ -26,21 +26,6 @@ This repo is kept in sync by two tools, each handling a different set of platfor
 | 🟡 Medium | **1** |
 | 🔴 Hard | **0** |
 | **Total** | **1** |
-
-## 📂 Repository Structure
-
-```
-📦 coding-challenge/
-├── leetcode/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-├── hackerrank/
-├── codechef/
-└── gfg/
-```
-
----
 
 ## ✅ LeetCode Solved (via LeetHub)
 <!-- PROBLEMS_TABLE_START -->
