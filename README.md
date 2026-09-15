@@ -11,7 +11,7 @@ A single home for every problem I've solved, auto-synced from multiple platforms
 
 This repo is kept in sync by two tools, each handling a different set of platforms:
 
-**| Tool | Syncs From |**
+| **Tool** | **Syncs From** |
 |:---|:---|:---:|
 | 🟠 **LeetHub** | LeetCode |
 | 🚀 **PushMyCode** | HackerRank, GeeksforGeeks (GFG), CodeChef |
