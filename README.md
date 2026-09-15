@@ -6,9 +6,22 @@
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-9--15--2026-green?style=for-the-badge)
 
-> 🚀 Auto-synced by [**PushMyCode**](https://github.com/PushMyCode-HQ) — solve it, forget it, it's on GitHub.
+A single home for every problem I've solved, auto-synced from multiple platforms.
 
 </div>
+
+---
+
+## 🔄 How This Repo Stays Updated
+
+This repo is kept in sync by two tools, each handling a different set of platforms:
+
+| Tool | Syncs From | Link |
+|:---|:---|:---:|
+| 🟠 **LeetHub** | LeetCode |
+| 🚀 **PushMyCode** | HackerRank, GeeksforGeeks (GFG), CodeChef |
+
+> Solve it, forget it — it ends up here automatically.
 
 ---
 
@@ -20,12 +33,6 @@
 | 🟡 Medium | **1** |
 | 🔴 Hard | **0** |
 | **Total** | **1** |
-
-## 🛠️ Languages
-
-| Language | Solutions |
-|:---:|:---:|
-| C++ | **1** |
 
 ## 📂 Repository Structure
 
@@ -41,12 +48,6 @@
 ```
 
 ---
-
-<div align="center">
-
-*Last updated: 2026-09-15* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
-
-</div>
 
 ## ✅ Solved
 <!-- PROBLEMS_TABLE_START -->
