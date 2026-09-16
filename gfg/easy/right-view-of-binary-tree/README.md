@@ -32,7 +32,7 @@ Output: [3]
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T17:36:21.516Z  
+**Submitted:** 2026-09-16T17:50:32.752Z  
 
 ```cpp
 /*
