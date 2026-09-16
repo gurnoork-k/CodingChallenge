@@ -31,7 +31,7 @@ Explanation: From the left side of the tree, only the nodes 1, 2, 4, and 5 are v
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T17:33:23.879Z  
+**Submitted:** 2026-09-16T17:50:39.297Z  
 
 ```cpp
 /* Structure of Binary Tree Node
