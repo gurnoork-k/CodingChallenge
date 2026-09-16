@@ -6,45 +6,49 @@ README_PATH = "README.md"
 
 IGNORE = {".git", ".github", "scripts", "node_modules"}
 
-# Add/remove platforms here — folder name must match your repo's top-level dir
 PLATFORMS = {
-    "leetcode":   {"folder": "leetcode",   "marker": "LEETCODE",   "title": "LeetCode"},
-    "gfg":        {"folder": "gfg",        "marker": "GFG",        "title": "GeeksforGeeks"},
-    "hackerrank": {"folder": "hackerrank", "marker": "HACKERRANK", "title": "HackerRank"},
-    "codechef":   {"folder": "codechef",   "marker": "CODECHEF",   "title": "CodeChef"},
+    "leetcode":   {"folder": "leetcode",   "marker": "LEETCODE",   "title": "LeetCode",      "numbered": True},
+    "gfg":        {"folder": "gfg",        "marker": "GFG",        "title": "GeeksforGeeks", "numbered": False},
+    "hackerrank": {"folder": "hackerrank", "marker": "HACKERRANK", "title": "HackerRank",    "numbered": False},
+    "codechef":   {"folder": "codechef",   "marker": "CODECHEF",   "title": "CodeChef",      "numbered": False},
 }
 
 
-def get_problem_folders(base_folder):
-    """Walk only inside base_folder (e.g. 'leetcode') and find \\d{4}-slug dirs."""
+def get_problem_folders(base_folder, numbered):
+    """Walk only inside base_folder. If numbered=True, expects \\d{4}-slug names.
+    If numbered=False, accepts any slug folder (no digit prefix required)."""
     if not os.path.isdir(base_folder):
         return []
 
+    pattern = r"^\d{4}-" if numbered else r"^[a-zA-Z0-9]"
     folders = []
     for root, dirs, files in os.walk(base_folder):
         dirs[:] = [d for d in dirs if d not in IGNORE and not d.startswith(".")]
         for name in dirs:
-            if re.match(r"^\d{4}-", name):
+            if re.match(pattern, name):
                 rel_path = os.path.relpath(os.path.join(root, name), REPO_ROOT)
                 folders.append(rel_path)
 
-    return sorted(folders, key=lambda x: int(os.path.basename(x).split("-")[0]))
+    if numbered:
+        return sorted(folders, key=lambda x: int(os.path.basename(x).split("-")[0]))
+    else:
+        return sorted(folders, key=lambda x: os.path.basename(x).lower())
 
 
-def folder_to_title(folder):
+def folder_to_title(folder, numbered):
     base = os.path.basename(folder)
-    parts = base.split("-")[1:]
+    parts = base.split("-")[1:] if numbered else base.split("-")
     return " ".join(p.capitalize() for p in parts)
 
 
-def build_table(folders):
+def build_table(folders, numbered):
     if not folders:
         return "_No problems solved yet._"
     rows = ["| # | Problem | Folder |", "|---|---------|--------|"]
-    for folder in folders:
+    for i, folder in enumerate(folders, start=1):
         base = os.path.basename(folder)
-        num = str(int(base.split("-")[0]))
-        title = folder_to_title(folder)
+        num = str(int(base.split("-")[0])) if numbered else str(i)
+        title = folder_to_title(folder, numbered)
         rows.append(f"| {num} | {title} | [{folder}](./{folder}) |")
     return "\n".join(rows)
 
@@ -69,7 +73,6 @@ def update_readme(tables_by_platform):
                 flags=re.DOTALL
             )
         else:
-            # marker missing -> append a new section for this platform
             content += f"\n\n## {info['title']}\n{new_section}\n"
 
     with open(README_PATH, "w") as f:
@@ -81,8 +84,8 @@ if __name__ == "__main__":
     total = 0
 
     for key, info in PLATFORMS.items():
-        folders = get_problem_folders(info["folder"])
-        tables_by_platform[key] = build_table(folders)
+        folders = get_problem_folders(info["folder"], info["numbered"])
+        tables_by_platform[key] = build_table(folders, info["numbered"])
         total += len(folders)
         print(f"{info['title']}: {len(folders)} problems")
 
