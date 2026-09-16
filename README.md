@@ -52,7 +52,4 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
-| 283 | Move Zeroes | [0283-move-zeroes](./0283-move-zeroes) |
-| 876 | Middle Of The Linked List | [0876-middle-of-the-linked-list](./0876-middle-of-the-linked-list) |
-| 1929 | Concatenation Of Array | [1929-concatenation-of-array](./1929-concatenation-of-array) |
 <!-- PROBLEMS_TABLE_END -->
