@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int countNonMinimum(vector<int>& nums) {
+        
+
+        int M = INT_MAX;
+        for(int i=0; i< nums.size(); i++){
+            if(nums[i] < M){
+                M = nums[i];
+            }
+        }
+        
+        int c = 0;        
+        for(int i=0; i< nums.size();i++){
+            if(nums[i] != M){
+                c+=1;
+            }
+        }
+        
+        return c;
+    }
+};
