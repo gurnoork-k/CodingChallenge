@@ -52,4 +52,14 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
+| 1 | Two Sum | [leetcode/easy/0001-two-sum](./leetcode/easy/0001-two-sum) |
+| 2 | Add Two Numbers | [leetcode/medium/0002-add-two-numbers](./leetcode/medium/0002-add-two-numbers) |
+| 17 | Letter Combinations Of A Phone Number | [leetcode/medium/0017-letter-combinations-of-a-phone-number](./leetcode/medium/0017-letter-combinations-of-a-phone-number) |
+| 20 | Valid Parentheses | [leetcode/easy/0020-valid-parentheses](./leetcode/easy/0020-valid-parentheses) |
+| 25 | Reverse Nodes In K Group | [leetcode/hard/0025-reverse-nodes-in-k-group](./leetcode/hard/0025-reverse-nodes-in-k-group) |
+| 26 | Remove Duplicates From Sorted Array | [leetcode/easy/0026-remove-duplicates-from-sorted-array](./leetcode/easy/0026-remove-duplicates-from-sorted-array) |
+| 33 | Search In Rotated Sorted Array | [leetcode/medium/0033-search-in-rotated-sorted-array](./leetcode/medium/0033-search-in-rotated-sorted-array) |
+| 34 | Find First And Last Position Of Element In Sorted Array | [leetcode/medium/0034-find-first-and-last-position-of-element-in-sorted-array](./leetcode/medium/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| 46 | Permutations | [leetcode/medium/0046-permutations](./leetcode/medium/0046-permutations) |
+| 48 | Rotate Image | [leetcode/medium/0048-rotate-image](./leetcode/medium/0048-rotate-image) |
 <!-- PROBLEMS_TABLE_END -->
