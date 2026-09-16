@@ -52,9 +52,6 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
-| 17 | Letter Combinations Of A Phone Number | [0017-letter-combinations-of-a-phone-number](./0017-letter-combinations-of-a-phone-number) |
-| 20 | Valid Parentheses | [0020-valid-parentheses](./0020-valid-parentheses) |
-| 25 | Reverse Nodes In K Group | [0025-reverse-nodes-in-k-group](./0025-reverse-nodes-in-k-group) |
 | 46 | Permutations | [0046-permutations](./0046-permutations) |
 | 78 | Subsets | [0078-subsets](./0078-subsets) |
 | 121 | Best Time To Buy And Sell Stock | [0121-best-time-to-buy-and-sell-stock](./0121-best-time-to-buy-and-sell-stock) |
