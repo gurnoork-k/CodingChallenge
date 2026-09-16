@@ -52,7 +52,6 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
-| 1 | Two Sum | [0001-two-sum](./0001-two-sum) |
 | 2 | Add Two Numbers | [0002-add-two-numbers](./0002-add-two-numbers) |
 | 17 | Letter Combinations Of A Phone Number | [0017-letter-combinations-of-a-phone-number](./0017-letter-combinations-of-a-phone-number) |
 | 20 | Valid Parentheses | [0020-valid-parentheses](./0020-valid-parentheses) |
