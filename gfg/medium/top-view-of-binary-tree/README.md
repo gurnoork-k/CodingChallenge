@@ -32,7 +32,7 @@ Explanation: The Green colored nodes represents the top view in the below Binary
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:14:14.740Z  
+**Submitted:** 2026-09-16T17:50:52.457Z  
 
 ```cpp
 /*
