@@ -52,8 +52,6 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
-| 206 | Reverse Linked List | [0206-reverse-linked-list](./0206-reverse-linked-list) |
-| 234 | Palindrome Linked List | [0234-palindrome-linked-list](./0234-palindrome-linked-list) |
 | 283 | Move Zeroes | [0283-move-zeroes](./0283-move-zeroes) |
 | 876 | Middle Of The Linked List | [0876-middle-of-the-linked-list](./0876-middle-of-the-linked-list) |
 | 1929 | Concatenation Of Array | [1929-concatenation-of-array](./1929-concatenation-of-array) |
