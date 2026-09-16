@@ -5,6 +5,7 @@ REPO_ROOT = "."
 README_PATH = "README.md"
 
 IGNORE = {".git", ".github", "scripts", "node_modules"}
+CATEGORY_NAMES = {"easy", "medium", "hard"}  # container folders, not real problems
 
 PLATFORMS = {
     "leetcode":   {"folder": "leetcode",   "marker": "LEETCODE",   "title": "LeetCode",      "numbered": True},
@@ -16,7 +17,7 @@ PLATFORMS = {
 
 def get_problem_folders(base_folder, numbered):
     """Walk only inside base_folder. If numbered=True, expects \\d{4}-slug names.
-    If numbered=False, accepts any slug folder (no digit prefix required)."""
+    If numbered=False, accepts any slug folder (excluding easy/medium/hard containers)."""
     if not os.path.isdir(base_folder):
         return []
 
@@ -25,6 +26,8 @@ def get_problem_folders(base_folder, numbered):
     for root, dirs, files in os.walk(base_folder):
         dirs[:] = [d for d in dirs if d not in IGNORE and not d.startswith(".")]
         for name in dirs:
+            if name.lower() in CATEGORY_NAMES:
+                continue  # skip easy/medium/hard container folders
             if re.match(pattern, name):
                 rel_path = os.path.relpath(os.path.join(root, name), REPO_ROOT)
                 folders.append(rel_path)
