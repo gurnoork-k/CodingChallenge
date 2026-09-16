@@ -52,7 +52,6 @@
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
-| 46 | Permutations | [0046-permutations](./0046-permutations) |
 | 78 | Subsets | [0078-subsets](./0078-subsets) |
 | 121 | Best Time To Buy And Sell Stock | [0121-best-time-to-buy-and-sell-stock](./0121-best-time-to-buy-and-sell-stock) |
 | 169 | Majority Element | [0169-majority-element](./0169-majority-element) |
