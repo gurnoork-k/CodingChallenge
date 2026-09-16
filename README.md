@@ -90,6 +90,7 @@ _No problems solved yet._
 | # | Problem | Folder |
 |---|---------|--------|
 | 1 | Doll   Rating 984 | [codechef/easy/DOLL---Rating-984](./codechef/easy/DOLL---Rating-984) |
-| 2 | Searchinarr   Rating 600 | [codechef/easy/SEARCHINARR---Rating-600](./codechef/easy/SEARCHINARR---Rating-600) |
-| 3 | Uwcoi20a   Rating 650 | [codechef/easy/UWCOI20A---Rating-650](./codechef/easy/UWCOI20A---Rating-650) |
+| 2 | Largesecond   Rating 928 | [codechef/easy/LARGESECOND---Rating-928](./codechef/easy/LARGESECOND---Rating-928) |
+| 3 | Searchinarr   Rating 600 | [codechef/easy/SEARCHINARR---Rating-600](./codechef/easy/SEARCHINARR---Rating-600) |
+| 4 | Uwcoi20a   Rating 650 | [codechef/easy/UWCOI20A---Rating-650](./codechef/easy/UWCOI20A---Rating-650) |
 <!-- CODECHEF_TABLE_END -->
