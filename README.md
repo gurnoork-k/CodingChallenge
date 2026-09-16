@@ -91,6 +91,7 @@ _No problems solved yet._
 |---|---------|--------|
 | 1 | Doll   Rating 984 | [codechef/easy/DOLL---Rating-984](./codechef/easy/DOLL---Rating-984) |
 | 2 | Largesecond   Rating 928 | [codechef/easy/LARGESECOND---Rating-928](./codechef/easy/LARGESECOND---Rating-928) |
-| 3 | Searchinarr   Rating 600 | [codechef/easy/SEARCHINARR---Rating-600](./codechef/easy/SEARCHINARR---Rating-600) |
-| 4 | Uwcoi20a   Rating 650 | [codechef/easy/UWCOI20A---Rating-650](./codechef/easy/UWCOI20A---Rating-650) |
+| 3 | Opmin   Rating 838 | [codechef/easy/OPMIN---Rating-838](./codechef/easy/OPMIN---Rating-838) |
+| 4 | Searchinarr   Rating 600 | [codechef/easy/SEARCHINARR---Rating-600](./codechef/easy/SEARCHINARR---Rating-600) |
+| 5 | Uwcoi20a   Rating 650 | [codechef/easy/UWCOI20A---Rating-650](./codechef/easy/UWCOI20A---Rating-650) |
 <!-- CODECHEF_TABLE_END -->
