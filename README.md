@@ -68,7 +68,15 @@
 
 ## GeeksforGeeks
 <!-- GFG_TABLE_START -->
-_No problems solved yet._
+| # | Problem | Folder |
+|---|---------|--------|
+| 1 | Bottom View Of Binary Tree | [gfg/medium/bottom-view-of-binary-tree](./gfg/medium/bottom-view-of-binary-tree) |
+| 2 | Boundary Traversal Of Binary Tree | [gfg/medium/boundary-traversal-of-binary-tree](./gfg/medium/boundary-traversal-of-binary-tree) |
+| 3 | Easy | [gfg/easy](./gfg/easy) |
+| 4 | Left View Of Binary Tree | [gfg/easy/left-view-of-binary-tree](./gfg/easy/left-view-of-binary-tree) |
+| 5 | Medium | [gfg/medium](./gfg/medium) |
+| 6 | Right View Of Binary Tree | [gfg/easy/right-view-of-binary-tree](./gfg/easy/right-view-of-binary-tree) |
+| 7 | Top View Of Binary Tree | [gfg/medium/top-view-of-binary-tree](./gfg/medium/top-view-of-binary-tree) |
 <!-- GFG_TABLE_END -->
 
 
