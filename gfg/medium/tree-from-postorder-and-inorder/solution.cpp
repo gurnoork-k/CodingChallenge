@@ -23,7 +23,7 @@ class Solution {
         int inStart, int inEnd, int n, map<int, int> &nodeToIndex){
         
         //base case
-        if(index >= n || inStart > inEnd){
+        if(index < 0 || inStart > inEnd){
             return NULL;
         }
         
