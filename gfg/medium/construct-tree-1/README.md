@@ -29,7 +29,7 @@ Explanation: The tree will look like
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T18:18:36.667Z  
+**Submitted:** 2026-09-18T15:15:42.313Z  
 
 ```cpp
 /* Structure of a Tree Node
