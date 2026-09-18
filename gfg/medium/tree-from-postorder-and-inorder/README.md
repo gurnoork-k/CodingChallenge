@@ -33,7 +33,7 @@ Explanation: The resultant binary tree will be:
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-18T15:12:09.055Z  
+**Submitted:** 2026-09-18T15:14:48.932Z  
 
 ```cpp
 /* Structure of binary tree node
@@ -61,7 +61,7 @@ class Solution {
         int inStart, int inEnd, int n, map<int, int> &nodeToIndex){
         
         //base case
-        if(index >= n || inStart > inEnd){
+        if(index < 0 || inStart > inEnd){
             return NULL;
         }
         
