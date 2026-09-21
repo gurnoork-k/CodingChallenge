@@ -41,9 +41,9 @@ Explanation: Number 9 is repeated and number 5 is missing so the answer is [9,5]
 ## Solution
 
 **Language:** C++  
-**Runtime:** 24 ms (beats 8.88%)  
-**Memory:** 32 MB (beats 9.35%)  
-**Submitted:** 2026-09-21T21:40:17.964Z  
+**Runtime:** 0 ms  
+**Memory:** 8.2 MB  
+**Submitted:** 2026-09-21T21:39:40.585Z  
 
 ```cpp
 class Solution {
