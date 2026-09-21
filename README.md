@@ -65,6 +65,7 @@
 | 48 | Rotate Image | [leetcode/medium/0048-rotate-image](./leetcode/medium/0048-rotate-image) |
 | 53 | Maximum Subarray | [leetcode/medium/0053-maximum-subarray](./leetcode/medium/0053-maximum-subarray) |
 | 700 | Search In A Binary Search Tree | [leetcode/easy/0700-search-in-a-binary-search-tree](./leetcode/easy/0700-search-in-a-binary-search-tree) |
+| 2965 | Find Missing And Repeated Values | [leetcode/easy/2965-find-missing-and-repeated-values](./leetcode/easy/2965-find-missing-and-repeated-values) |
 <!-- LEETCODE_TABLE_END -->
 
 
