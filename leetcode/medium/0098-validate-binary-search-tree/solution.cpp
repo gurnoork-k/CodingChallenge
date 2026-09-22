@@ -11,27 +11,40 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, vector<int> &ans){
-        if(root == NULL) return;
+    // void inorder(TreeNode* root, vector<int> &ans){
+    //     if(root == NULL) return;
 
-        inorder(root-> left, ans);
-        ans.push_back(root-> val);
-        inorder(root-> right, ans);
+    //     inorder(root-> left, ans);
+    //     ans.push_back(root-> val);
+    //     inorder(root-> right, ans);
+    // }
+
+    bool isBst(TreeNode* root, long long min, long long max){
+        //base case
+        if(root == NULL) return true;
+
+        if(root-> val <= min || root -> val >= max) return false;
+
+        return isBst(root-> left, min, root-> val) &&  
+                isBst(root-> right, root-> val, max);
     }
+
     bool isValidBST(TreeNode* root) {
-        vector<int> ans;
+    //     vector<int> ans;
         
-        inorder(root, ans);
-        int n = ans.size();
+    //     inorder(root, ans);
+    //     int n = ans.size();
 
-        bool flag = true;
-        for(int i=0; i < n-1; i++){
-            if(ans[i] > ans[i+1] || ans[i] == ans[i+1]){
-                flag = false;
-            }
+    //     bool flag = true;
+    //     for(int i=0; i < n-1; i++){
+    //         if(ans[i] > ans[i+1] || ans[i] == ans[i+1]){
+    //             flag = false;
+    //         }
             
-        }
-        return flag;
+    //     }
+    //     return flag;
 
+        return isBst(root, LLONG_MIN, LLONG_MAX);
+         
     }
 };
