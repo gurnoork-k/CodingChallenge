@@ -64,6 +64,7 @@
 | 46 | Permutations | [leetcode/medium/0046-permutations](./leetcode/medium/0046-permutations) |
 | 48 | Rotate Image | [leetcode/medium/0048-rotate-image](./leetcode/medium/0048-rotate-image) |
 | 53 | Maximum Subarray | [leetcode/medium/0053-maximum-subarray](./leetcode/medium/0053-maximum-subarray) |
+| 98 | Validate Binary Search Tree | [leetcode/medium/0098-validate-binary-search-tree](./leetcode/medium/0098-validate-binary-search-tree) |
 | 700 | Search In A Binary Search Tree | [leetcode/easy/0700-search-in-a-binary-search-tree](./leetcode/easy/0700-search-in-a-binary-search-tree) |
 | 2965 | Find Missing And Repeated Values | [leetcode/easy/2965-find-missing-and-repeated-values](./leetcode/easy/2965-find-missing-and-repeated-values) |
 <!-- LEETCODE_TABLE_END -->
