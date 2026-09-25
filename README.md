@@ -63,6 +63,7 @@
 | 34 | Find First And Last Position Of Element In Sorted Array | [leetcode/medium/0034-find-first-and-last-position-of-element-in-sorted-array](./leetcode/medium/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | 46 | Permutations | [leetcode/medium/0046-permutations](./leetcode/medium/0046-permutations) |
 | 48 | Rotate Image | [leetcode/medium/0048-rotate-image](./leetcode/medium/0048-rotate-image) |
+| 50 | Powx N | [leetcode/medium/0050-powx-n](./leetcode/medium/0050-powx-n) |
 | 53 | Maximum Subarray | [leetcode/medium/0053-maximum-subarray](./leetcode/medium/0053-maximum-subarray) |
 | 98 | Validate Binary Search Tree | [leetcode/medium/0098-validate-binary-search-tree](./leetcode/medium/0098-validate-binary-search-tree) |
 | 700 | Search In A Binary Search Tree | [leetcode/easy/0700-search-in-a-binary-search-tree](./leetcode/easy/0700-search-in-a-binary-search-tree) |
