@@ -25,16 +25,25 @@ Explanation: 3rd smallest element in the given array is 7.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T11:55:02.679Z  
+**Submitted:** 2026-10-21T14:56:12.681Z  
 
 ```cpp
 class Solution {
   public:
 
     int kthSmallest(vector<int> &arr, int k) {
-        // code here 
-        sort(arr.begin(), arr.end());
-        return arr[k-1];
+        priority_queue<int> pq;
+        int n = arr.size();
+        
+        for(int i =0; i< n; i++){
+            pq.push(arr[i]);
+        }
+        
+        for(int i = k; i< n; i++){
+            pq.pop();
+        }
+        
+        return pq.top();
     }
 };
 ```
